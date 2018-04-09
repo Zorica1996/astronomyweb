@@ -1,0 +1,155 @@
+body {
+	background:url(sliki/pozadina.jpg);
+}
+
+#container {
+    width:1200px;
+    height: auto;
+    margin: 0 auto;
+    background-color:rgba(255,255,255,0.6);
+    padding: 20px;
+}
+nav ul {
+	list-style-type:none;
+	margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+	background-color:#60889C;
+	width: 1240px;
+}
+nav ul li a {
+	display:block;
+	font-weight:bold;
+	width:150px;
+	text-align:center;
+	padding:15px;
+	margin:5px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a:hover {
+	color: #435f6d;
+}
+a{
+	color:white;
+}
+
+#naslov-slika {
+	width: 300px;
+	height: 100px;
+}
+
+#sodrzina{
+	color: white;
+	background-color: #435f6d;
+	border-radius: 15px;
+	padding:10px;
+	list-style-type:none;
+	text-align: center;
+}
+
+.text{
+	font-family:sans-serif;
+	text-decoration:none;
+	font-size:medium;
+	margin: 0px 15px 0px 0px;
+}
+
+.textarea {
+	width: 200px;
+	height: 100px;
+}
+
+.elementi {
+	font-family:Helvetica;
+	font-size:large;
+	text-decoration:none;
+	color:white;
+	text-align:center;
+}
+.elementi:hover {
+	background-color:#60889C;
+	padding:10px;
+	border-radius: 15px;
+}
+
+#astronomija,#moderna_astronomija,#pulsiracki,#mlecen,#raganje,#vidovi,#kometi,#dozd,#sozdavanje,#sonce,#planeti,#sateliti{
+	color: white;
+	background-color: #60889C;
+	padding:10px;
+	border-radius: 15px;
+	width: auto;
+	text-align: center;
+}
+
+.najava {
+	position: relative;
+	left: 40%; 
+	padding-top: 25px;
+	color: white;
+}
+.registracija {
+	position: relative;
+	left: 40%; 
+	padding-top: 25px;
+	color: white;
+}
+.forma {
+	color: white;
+	position: relative;
+	left: 40%; 
+}
+#btn {
+	border: groove #B5B4B3 3px;
+	border-radius: 5px;
+	font-weight: bold;
+	width: 200px;
+	height: 35px;
+	color: white;
+	background-color: #60889C;
+}
+#btn:hover {
+	background-color: #435f6d;
+}
+
+#pozicija {
+width: 100%; 
+height: auto; 
+overflow:hidden; 
+position:relative;
+}
+
+#koloni {
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+}
+
+.img {
+	border: 10px groove lightgrey;
+	float: left;
+	width: 300px;
+	margin-right: 10px;
+}
+
+header {
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+
+footer {
+	text-align: center;
+}
+
+.fakti_header {
+	text-align: center;
+}
+.fakti_slika {
+	border:10px groove lightgrey;
+	display: block;
+	margin: 0 auto; 
+	width: 600px;
+	height: 200px;
+}
